@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createclothes:mesa_cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createclothes:mesa_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createclothes:mesa_helmet"
+        },
+        {
+            "tag": "c:plates/iron"
+          }
+      ],
+      "results": [
+        {
+          "id": "createclothes:mesa_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ {
+          "item": "createclothes:mesa_helmet"
+        } ],
+      "results": [
+        {
+          "id": "createclothes:mesa_helmet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createclothes:mesa_helmet"
+  }
+}
+
+
+
+
+
+
+
+

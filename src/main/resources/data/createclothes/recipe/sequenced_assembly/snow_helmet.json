@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createclothes:snow_cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createclothes:snow_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createclothes:snow_helmet"
+        },
+        {
+            "tag": "c:plates/iron"
+          }
+      ],
+      "results": [
+        {
+          "id": "createclothes:snow_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ {
+          "item": "createclothes:snow_helmet"
+        } ],
+      "results": [
+        {
+          "id": "createclothes:snow_helmet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createclothes:snow_helmet"
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createclothes:cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createclothes:sturdy_cloth"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createclothes:sturdy_cloth"
+        },
+        {
+            "tag": "c:plates/iron"
+          }
+      ],
+      "results": [
+        {
+          "id": "createclothes:sturdy_cloth"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ {
+          "item": "createclothes:sturdy_cloth"
+        } ],
+      "results": [
+        {
+          "id": "createclothes:sturdy_cloth"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createclothes:sturdy_cloth"
+  }
+}
+
+
+
+
+
+
+
+

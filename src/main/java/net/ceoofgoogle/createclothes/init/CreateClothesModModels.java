@@ -1,19 +1,18 @@
 package net.ceoofgoogle.createclothes.init;
 
+import net.ceoofgoogle.createclothes.CreateClothes;
 import net.ceoofgoogle.createclothes.model.*;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 
-@Mod.EventBusSubscriber(
-        bus = Mod.EventBusSubscriber.Bus.MOD,
+@EventBusSubscriber(
+        modid = CreateClothes.MOD_ID,
+        bus = EventBusSubscriber.Bus.MOD,
         value = {Dist.CLIENT}
 )
 public class CreateClothesModModels {
-    public CreateClothesModModels() {
-    }
-
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModelBucketHat.LAYER_LOCATION, ModelBucketHat::createBodyLayer);
@@ -25,5 +24,11 @@ public class CreateClothesModModels {
         event.registerLayerDefinition(ModelTricorn.LAYER_LOCATION, ModelTricorn::createBodyLayer);
         event.registerLayerDefinition(ModelTunic.LAYER_LOCATION, ModelTunic::createBodyLayer);
         event.registerLayerDefinition(ModelVest.LAYER_LOCATION, ModelVest::createBodyLayer);
+        event.registerLayerDefinition(ParachuteModel.LAYER_LOCATION, ParachuteModel::createBodyLayer);
+    }
+
+    @SubscribeEvent
+    public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(CreateClothesModEntities.PARACHUTE.get(), net.ceoofgoogle.createclothes.client.renderer.ParachuteRenderer::new);
     }
 }

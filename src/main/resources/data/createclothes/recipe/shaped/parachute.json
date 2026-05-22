@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "createclothes:cloth"
+    },
+    "L": {
+      "item": "minecraft:lead"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CCC",
+    "L L"
+  ],
+  "result": {
+    "id": "createclothes:parachute"
+  },
+  "show_notification": true
+}

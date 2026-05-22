@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createclothes:desert_cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createclothes:desert_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createclothes:desert_helmet"
+        },
+        {
+            "tag": "c:plates/iron"
+          }
+      ],
+      "results": [
+        {
+          "id": "createclothes:desert_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ {
+          "item": "createclothes:desert_helmet"
+        } ],
+      "results": [
+        {
+          "id": "createclothes:desert_helmet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createclothes:desert_helmet"
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createclothes:forest_cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createclothes:forest_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createclothes:forest_helmet"
+        },
+        {
+            "tag": "c:plates/iron"
+          }
+      ],
+      "results": [
+        {
+          "id": "createclothes:forest_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ {
+          "item": "createclothes:forest_helmet"
+        } ],
+      "results": [
+        {
+          "id": "createclothes:forest_helmet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createclothes:forest_helmet"
+  }
+}
+
+
+
+
+
+
+
+

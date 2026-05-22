@@ -1,0 +1,19 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createclothes:taiga_cloth"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "count": 1,
+      "id": "createclothes:taiga_pants"
+    }
+  ]
+}
+
+
+
+

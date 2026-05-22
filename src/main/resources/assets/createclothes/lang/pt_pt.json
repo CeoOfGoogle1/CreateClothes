@@ -70,6 +70,7 @@
   "item.createclothes.water_cloth": "Tecido Marítimo",
   "item.createclothes.mesa_cloth": "Tecido Árido",
   "item.createclothes.dirt_cloth": "Tecido da Terra",
+  "item.createclothes.parachute": "Paraquedas",
 
   "creativetab.create_clothes": "Create Clothes"
 }
