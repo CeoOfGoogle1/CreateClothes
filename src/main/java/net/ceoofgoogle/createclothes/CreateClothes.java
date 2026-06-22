@@ -1,9 +1,11 @@
 package net.ceoofgoogle.createclothes;
 
 import net.ceoofgoogle.createclothes.init.CreateClothesModArmorMaterials;
+import net.ceoofgoogle.createclothes.init.CreateClothesModAttributes;
 import net.ceoofgoogle.createclothes.init.CreateClothesModDataComponents;
 import net.ceoofgoogle.createclothes.init.CreateClothesModEntities;
 import net.ceoofgoogle.createclothes.init.CreateClothesModItems;
+import net.ceoofgoogle.createclothes.init.CreateClothesModSounds;
 import net.ceoofgoogle.createclothes.init.CreateClothesModTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -20,5 +22,7 @@ public class CreateClothes
         CreateClothesModArmorMaterials.REGISTRY.register(bus);
         CreateClothesModEntities.REGISTRY.register(bus);
         CreateClothesModDataComponents.REGISTRY.register(bus);
+        CreateClothesModAttributes.ATTRIBUTES.register(bus);
+        CreateClothesModSounds.SOUND_EVENTS.register(bus);
     }
 }

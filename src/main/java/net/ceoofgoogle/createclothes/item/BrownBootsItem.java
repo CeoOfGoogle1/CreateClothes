@@ -10,7 +10,7 @@ public abstract class BrownBootsItem extends BaseCreateClothesArmorItem {
 
     public static class Boots extends BrownBootsItem {
         public Boots() {
-            super(Type.BOOTS, new Properties().durability(Type.BOOTS.getDurability(80)));
+            super(Type.BOOTS, new Properties().durability(Type.BOOTS.getDurability(15)));
         }
     }
 }

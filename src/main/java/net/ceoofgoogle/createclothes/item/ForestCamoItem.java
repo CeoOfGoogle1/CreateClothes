@@ -20,19 +20,19 @@ public abstract class ForestCamoItem extends BaseCreateClothesArmorItem {
 
     public static class Boots extends ForestCamoItem {
         public Boots() {
-            super(Type.BOOTS, new Properties().durability(Type.BOOTS.getDurability(80)));
+            super(Type.BOOTS, new Properties().durability(Type.BOOTS.getDurability(15)));
         }
     }
 
     public static class Leggings extends ForestCamoItem {
         public Leggings() {
-            super(Type.LEGGINGS, new Properties().durability(Type.LEGGINGS.getDurability(80)));
+            super(Type.LEGGINGS, new Properties().durability(Type.LEGGINGS.getDurability(15)));
         }
     }
 
     public static class Chestplate extends ForestCamoItem {
         public Chestplate() {
-            super(Type.CHESTPLATE, new Properties().durability(Type.CHESTPLATE.getDurability(80)));
+            super(Type.CHESTPLATE, new Properties().durability(Type.CHESTPLATE.getDurability(15)));
         }
 
         @Override
@@ -43,7 +43,7 @@ public abstract class ForestCamoItem extends BaseCreateClothesArmorItem {
 
     public static class Helmet extends ForestCamoItem {
         public Helmet() {
-            super(Type.HELMET, new Properties().durability(Type.HELMET.getDurability(80)));
+            super(Type.HELMET, new Properties().durability(Type.HELMET.getDurability(15)));
         }
 
         @Override

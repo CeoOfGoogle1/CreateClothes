@@ -19,7 +19,7 @@ public abstract class CapItem extends BaseCreateClothesArmorItem {
 
     public static class Helmet extends CapItem {
         public Helmet() {
-            super(Type.HELMET, new Properties().durability(Type.HELMET.getDurability(80)));
+            super(Type.HELMET, new Properties().durability(Type.HELMET.getDurability(15)));
         }
 
         @Override

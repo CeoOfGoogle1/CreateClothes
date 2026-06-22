@@ -1,0 +1,20 @@
+{
+  "description": {
+    "translate": "enchantment.createclothes.dodge"
+  },
+  "supported_items": "#createclothes:camo_armor",
+  "weight": 7,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 15
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ]
+}

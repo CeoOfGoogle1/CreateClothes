@@ -22,7 +22,7 @@ public abstract class OfficerItem extends BaseCreateClothesArmorItem {
 
     public static class Chestplate extends OfficerItem {
         public Chestplate() {
-            super(CreateClothesModArmorMaterials.OFFICER_TUNIC, Type.CHESTPLATE, new Properties().durability(Type.CHESTPLATE.getDurability(80)));
+            super(CreateClothesModArmorMaterials.OFFICER_TUNIC, Type.CHESTPLATE, new Properties().durability(Type.CHESTPLATE.getDurability(15)));
         }
 
         @Override
@@ -33,7 +33,7 @@ public abstract class OfficerItem extends BaseCreateClothesArmorItem {
 
     public static class Helmet extends OfficerItem {
         public Helmet() {
-            super(CreateClothesModArmorMaterials.OFFICER_CAP, Type.HELMET, new Properties().durability(Type.HELMET.getDurability(80)));
+            super(CreateClothesModArmorMaterials.OFFICER_CAP, Type.HELMET, new Properties().durability(Type.HELMET.getDurability(15)));
         }
 
         @Override

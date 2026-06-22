@@ -19,7 +19,7 @@ public abstract class RedcoatItem extends BaseCreateClothesArmorItem {
 
     public static class Chestplate extends RedcoatItem {
         public Chestplate() {
-            super(Type.CHESTPLATE, new Properties().durability(Type.CHESTPLATE.getDurability(80)));
+            super(Type.CHESTPLATE, new Properties().durability(Type.CHESTPLATE.getDurability(15)));
         }
 
         @Override

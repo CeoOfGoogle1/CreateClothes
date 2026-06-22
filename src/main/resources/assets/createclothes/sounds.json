@@ -1,0 +1,79 @@
+{
+  "ui_hit_01": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_01"
+      }
+    ]
+  },
+  "ui_hit_02": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_02"
+      }
+    ]
+  },
+  "ui_hit_03": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_03"
+      }
+    ]
+  },
+  "ui_hit_04": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_04"
+      }
+    ]
+  },
+  "ui_hit_05": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_05"
+      }
+    ]
+  },
+  "ui_hit_06": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_06"
+      }
+    ]
+  },
+  "ui_hit_07": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_07"
+      }
+    ]
+  },
+  "ui_hit_08": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_08"
+      }
+    ]
+  },
+  "ui_hit_09": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_09"
+      }
+    ]
+  },
+  "ui_hit_10": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_10"
+      }
+    ]
+  },
+  "ui_hit_11": {
+    "sounds": [
+      {
+        "name": "createclothes:ui_hit_11"
+      }
+    ]
+  }
+}

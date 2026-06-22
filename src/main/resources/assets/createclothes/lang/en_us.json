@@ -72,5 +72,8 @@
   "item.createclothes.dirt_cloth": "Dirt Cloth",
   "item.createclothes.parachute": "Parachute",
 
-  "creativetab.create_clothes": "Create Clothes"
+  "creativetab.create_clothes": "Create Clothes",
+  "attribute.createclothes.dodge_chance": "Dodge Chance",
+  "enchantment.createclothes.dodge": "Dodge"
+
 }
